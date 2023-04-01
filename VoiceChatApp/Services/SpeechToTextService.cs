@@ -32,7 +32,7 @@ namespace VoiceChatApp.Services
             form.Add(new StringContent("fr"), "language");
 
             // Set the Authorization header.
-            httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", "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");
+            httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", "<key>");
 
             // Send the POST request and get the response.
             HttpResponseMessage response = await httpClient.PostAsync("https://api.openai.com/v1/audio/transcriptions", form);
