@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Betalgo.OpenAI.GPT3" Version="6.8.1" />
+    <PackageReference Include="Deepgram" Version="1.13.0" />
+    <PackageReference Include="Microsoft.CognitiveServices.Speech" Version="1.26.0" />
+    <PackageReference Include="NAudio" Version="2.1.0" />
+    <PackageReference Include="OpenAI.ChatGPT" Version="1.1.0" />
+    <PackageReference Include="System.Speech" Version="7.0.0" />
+  </ItemGroup>
+
+</Project>
